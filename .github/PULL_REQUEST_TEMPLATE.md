@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **What this PR does / why we need it**:
 
@@ -7,6 +8,8 @@
 **Special notes for your reviewer**:
 
 >>>>>>> pilot/master
+=======
+>>>>>>> auth/master
 **Release note**:
 <!--  Steps to write your release note:
 1. Use the release-note-* labels to set the release note state (if you have access)

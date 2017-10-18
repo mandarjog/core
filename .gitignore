@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 coverage.txt
 coverage.out
 
@@ -82,3 +83,17 @@ coverage.out
 # auto-generated build files
 *BUILD-e
 >>>>>>> pilot/master
+=======
+# Ignore bazel-related directories.
+bazel-*
+
+# Ignore go vendor directories.
+vendor
+
+# Intellij files
+.idea/*
+*.iml
+
+# Ignore generated protobuf
+*.pb.go
+>>>>>>> auth/master
