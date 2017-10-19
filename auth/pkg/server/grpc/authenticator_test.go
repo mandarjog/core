@@ -121,7 +121,7 @@ func TestExtractBearerToken(t *testing.T) {
 	for id, tc := range testCases {
 		ctx := context.Background()
 		if tc.metadata != nil {
-			ctx = metadata.NewOutgoingContext(ctx, tc.metadata)
+			ctx = metadata.NewIncomingContext(ctx, tc.metadata)
 		}
 		if actual := extractBearerToken(ctx); actual != tc.expectedToken {
 			t.Errorf("Case %q: unexpected token: want %s but got %s", id, tc.expectedToken, actual)
