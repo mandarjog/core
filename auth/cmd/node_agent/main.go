@@ -20,8 +20,8 @@ import (
 	"github.com/golang/glog"
 	"github.com/spf13/cobra"
 
-	"istio.io/auth/cmd/node_agent/na"
-	"istio.io/auth/pkg/cmd"
+	"istio.io/core/auth/cmd/node_agent/na"
+	"istio.io/core/auth/pkg/cmd"
 )
 
 var (

@@ -27,8 +27,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"istio.io/auth/pkg/pki/ca"
-	pb "istio.io/auth/proto"
+	"istio.io/core/auth/pkg/pki/ca"
+	pb "istio.io/core/auth/proto"
 )
 
 const csr = `

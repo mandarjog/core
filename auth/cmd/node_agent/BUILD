@@ -7,8 +7,8 @@ go_library(
     deps = [
         "@com_github_golang_glog//:go_default_library",
         "@com_github_spf13_cobra//:go_default_library",
-        "@io_istio_auth//cmd/node_agent/na:go_default_library",
-        "@io_istio_auth//pkg/cmd:go_default_library",
+        "@io_istio_core//auth/cmd/node_agent/na:go_default_library",
+        "@io_istio_core//auth/pkg/cmd:go_default_library",
     ],
 )
 

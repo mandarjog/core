@@ -21,8 +21,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/golang/glog"
 
-	cred "istio.io/auth/pkg/credential"
-	"istio.io/auth/pkg/workload"
+	cred "istio.io/core/auth/pkg/credential"
+	"istio.io/core/auth/pkg/workload"
 )
 
 // NodeAgent interface that should be implemented by

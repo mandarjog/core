@@ -6,7 +6,7 @@ go_library(
     visibility = ["//visibility:private"],
     deps = [
         "@com_github_golang_glog//:go_default_library",
-        "@io_istio_auth//pkg/pki/ca:go_default_library",
+        "@io_istio_core//auth/pkg/pki/ca:go_default_library",
     ],
 )
 

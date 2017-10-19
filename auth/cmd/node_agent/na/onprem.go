@@ -23,7 +23,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"istio.io/auth/pkg/pki"
+	"istio.io/core/auth/pkg/pki"
 )
 
 type onPremPlatformImpl struct {

@@ -47,19 +47,6 @@ gogoslick_proto_library(
     verbose = 0,
 )
 
-load("@org_pubref_rules_protobuf//cpp:rules.bzl", "cc_proto_library")
-
-cc_proto_library(
-    name = "cc_status_proto",
-    protos = [
-        "google/rpc/status.proto",
-    ],
-    imports = [
-        "../../external/com_github_google_protobuf/src",
-    ],
-    verbose = 0,
-)
-
 filegroup(
     name = "status_proto",
     srcs = [ "google/rpc/status.proto" ],
@@ -83,7 +70,6 @@ filegroup(
         "google/api/metric.proto",
     ],
 )
-
 """
     native.new_git_repository(
         name = "com_github_googleapis_googleapis",

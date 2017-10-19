@@ -27,9 +27,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	mockutil "istio.io/auth/pkg/util/mock"
-	"istio.io/auth/pkg/workload"
-	pb "istio.io/auth/proto"
+	mockutil "istio.io/core/auth/pkg/util/mock"
+	"istio.io/core/auth/pkg/workload"
+	pb "istio.io/core/auth/proto"
 )
 
 const (

@@ -15,7 +15,7 @@
 package workload
 
 import (
-	"istio.io/auth/pkg/util"
+	"istio.io/core/auth/pkg/util"
 )
 
 const (

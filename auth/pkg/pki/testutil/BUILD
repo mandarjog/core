@@ -4,5 +4,5 @@ go_library(
     name = "go_default_library",
     srcs = ["util.go"],
     visibility = ["//visibility:public"],
-    deps = ["@io_istio_auth//pkg/pki:go_default_library"],
+    deps = ["@io_istio_core//auth/pkg/pki:go_default_library"],
 )

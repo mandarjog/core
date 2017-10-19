@@ -1012,6 +1012,36 @@ go_repository(
     importpath = "github.com/hashicorp/consul",
 )
 
+go_repository(
+    name = "com_github_pquerna_cachecontrol",
+    commit = "5475d973ea70916980bee28c2b674f3dc3eaed0a",  # Jul 5, 2017 (no release)
+    importpath = "github.com/pquerna/cachecontrol",
+)
+
+go_repository(
+    name = "in_gopkg_square_go_jose_v2",
+    commit = "b25e6cab129e4a54675b42ea49d38e9c33ade9e6",  # Jun 7, 2017 (v2.1.2)
+    importpath = "gopkg.in/square/go-jose.v2",
+)
+
+go_repository(
+    name = "com_github_aws_aws_sdk_go",
+    importpath = "github.com/aws/aws-sdk-go",
+    tag = "v1.12.5",
+)
+
+go_repository(
+    name = "com_github_go_ini_ini",
+    importpath = "github.com/go-ini/ini",
+    tag = "v1.28.2",
+)
+
+go_repository(
+    name = "com_github_jmespath_go_jmespath",
+    importpath = "github.com/jmespath/go-jmespath",
+    tag = "0.2.2",
+)
+
 ##
 ## Proxy image
 ##

@@ -31,7 +31,7 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/auth/pkg/pki"
+	"istio.io/core/auth/pkg/pki"
 
 	"github.com/golang/glog"
 )

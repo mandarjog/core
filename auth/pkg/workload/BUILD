@@ -9,6 +9,6 @@ go_library(
     ],
     visibility = ["//visibility:public"],
     deps = [
-        "@io_istio_auth//pkg/util:go_default_library",
+        "@io_istio_core//auth/pkg/util:go_default_library",
     ],
 )
