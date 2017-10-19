@@ -11,7 +11,7 @@ pkg_tar(
     name = "mixer_tar",
     extension = "tar.gz",
     files = [
-        "//cmd/server:mixs",
+        "//mixer/cmd/server:mixs",
     ],
     mode = "0755",
     package_dir = "/usr/local/bin/",
@@ -63,7 +63,7 @@ mixer_docker_build(
     tags = ["manual"],
     tars = [
         ":mixer_tar",
-        "//testdata:configs_tar",
+        "//mixer/testdata:configs_tar",
         ":cacerts.tar",
     ],
 )
