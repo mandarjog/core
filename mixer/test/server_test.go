@@ -27,8 +27,8 @@ import (
 	"google.golang.org/grpc"
 
 	mixerpb "istio.io/api/mixer/v1"
-	"istio.io/mixer/pkg/attribute"
-	"istio.io/mixer/pkg/status"
+	"istio.io/core/mixer/pkg/attribute"
+	"istio.io/core/mixer/pkg/status"
 )
 
 var (

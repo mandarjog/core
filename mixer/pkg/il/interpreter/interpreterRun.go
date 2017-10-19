@@ -11,8 +11,8 @@ import (
 	"math"
 	"time"
 
-	"istio.io/mixer/pkg/attribute"
-	"istio.io/mixer/pkg/il"
+	"istio.io/core/mixer/pkg/attribute"
+	"istio.io/core/mixer/pkg/il"
 )
 
 func (in *Interpreter) run(fn *il.Function, bag attribute.Bag, step bool) (Result, error) {

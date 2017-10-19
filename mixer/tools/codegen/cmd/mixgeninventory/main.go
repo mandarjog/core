@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/mixer/tools/codegen/pkg/inventory"
+	"istio.io/core/mixer/tools/codegen/pkg/inventory"
 )
 
 func withArgs(args []string, errorf func(format string, a ...interface{})) {

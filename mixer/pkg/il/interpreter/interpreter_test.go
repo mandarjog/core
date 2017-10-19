@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/mixer/pkg/il"
-	"istio.io/mixer/pkg/il/testing"
-	"istio.io/mixer/pkg/il/text"
+	"istio.io/core/mixer/pkg/il"
+	"istio.io/core/mixer/pkg/il/testing"
+	"istio.io/core/mixer/pkg/il/text"
 )
 
 // test is a common struct used by many tests in this context.

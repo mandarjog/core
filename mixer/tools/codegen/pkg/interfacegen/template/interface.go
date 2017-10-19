@@ -22,8 +22,8 @@ package {{.GoPackageName}}
 
 import (
   "context"
-  "istio.io/mixer/pkg/adapter"
-  "istio.io/mixer/pkg/adapter"
+  "istio.io/core/mixer/pkg/adapter"
+  "istio.io/core/mixer/pkg/adapter"
   $$additional_imports$$
 )
 

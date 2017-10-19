@@ -7,7 +7,7 @@ go_library(
     srcs = ["shared.go"],
     visibility = ["//visibility:public"],
     deps = [
-        "//pkg/version:go_default_library",
+        "//mixer/pkg/version:go_default_library",
         "@com_github_spf13_cobra//:go_default_library",
     ],
 )

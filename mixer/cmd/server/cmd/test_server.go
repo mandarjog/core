@@ -15,10 +15,10 @@
 package cmd
 
 import (
-	"istio.io/mixer/cmd/shared"
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/expr"
-	"istio.io/mixer/pkg/template"
+	"istio.io/core/mixer/cmd/shared"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/expr"
+	"istio.io/core/mixer/pkg/template"
 )
 
 var defaultSeverArgs = serverArgs{

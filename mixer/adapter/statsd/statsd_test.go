@@ -26,9 +26,9 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	descriptor "istio.io/api/mixer/v1/config/descriptor"
-	"istio.io/mixer/adapter/statsd/config"
-	"istio.io/mixer/pkg/adapter/test"
-	"istio.io/mixer/template/metric"
+	"istio.io/core/mixer/adapter/statsd/config"
+	"istio.io/core/mixer/pkg/adapter/test"
+	"istio.io/core/mixer/template/metric"
 )
 
 func TestValidateConfig(t *testing.T) {

@@ -2,7 +2,7 @@
 # gazelle:ignore
 
 load("@bazel_tools//tools/build_defs/pkg:pkg.bzl", "pkg_tar")
-load("//docker:mixer_docker.bzl", "mixer_docker_build")
+load("//mixer/docker:mixer_docker.bzl", "mixer_docker_build")
 load(":cacerts.bzl", "cacerts")
 
 # Use "manual" target tag to skip rules in the wildcard expansion

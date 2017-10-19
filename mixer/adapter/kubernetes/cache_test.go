@@ -23,7 +23,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/mixer/pkg/adapter/test"
+	"istio.io/core/mixer/pkg/adapter/test"
 )
 
 func TestEventType_String(t *testing.T) {

@@ -31,10 +31,10 @@ import (
 	"fmt"
 	"time"
 
-	"istio.io/mixer/adapter/memquota/config"
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/status"
-	"istio.io/mixer/template/quota"
+	"istio.io/core/mixer/adapter/memquota/config"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/status"
+	"istio.io/core/mixer/template/quota"
 )
 
 type handler struct {
@@ -219,7 +219,7 @@ func (h *handler) Close() error {
 func GetInfo() adapter.Info {
 	return adapter.Info{
 		Name:        "memquota",
-		Impl:        "istio.io/mixer/adapter/memquota",
+		Impl:        "istio.io/core/mixer/adapter/memquota",
 		Description: "Volatile memory-based quota tracking",
 		SupportedTemplates: []string{
 			quota.TemplateName,

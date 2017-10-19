@@ -25,9 +25,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 
-	mixc "istio.io/mixer/cmd/client/cmd"
-	mixs "istio.io/mixer/cmd/server/cmd"
-	"istio.io/mixer/cmd/shared"
+	mixc "istio.io/core/mixer/cmd/client/cmd"
+	mixs "istio.io/core/mixer/cmd/server/cmd"
+	"istio.io/core/mixer/cmd/shared"
 )
 
 // GetRootCmd returns the root of the cobra command-tree.

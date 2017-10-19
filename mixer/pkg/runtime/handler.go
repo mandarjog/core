@@ -24,10 +24,10 @@ import (
 	"github.com/golang/glog"
 
 	pbd "istio.io/api/mixer/v1/config/descriptor"
-	"istio.io/mixer/pkg/adapter"
-	pb "istio.io/mixer/pkg/config/proto"
-	"istio.io/mixer/pkg/expr"
-	"istio.io/mixer/pkg/template"
+	"istio.io/core/mixer/pkg/adapter"
+	pb "istio.io/core/mixer/pkg/config/proto"
+	"istio.io/core/mixer/pkg/expr"
+	"istio.io/core/mixer/pkg/template"
 )
 
 type (

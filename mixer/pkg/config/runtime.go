@@ -21,9 +21,9 @@ import (
 	"github.com/golang/glog"
 	multierror "github.com/hashicorp/go-multierror"
 
-	"istio.io/mixer/pkg/attribute"
-	pb "istio.io/mixer/pkg/config/proto"
-	"istio.io/mixer/pkg/expr"
+	"istio.io/core/mixer/pkg/attribute"
+	pb "istio.io/core/mixer/pkg/config/proto"
+	"istio.io/core/mixer/pkg/expr"
 )
 
 type (

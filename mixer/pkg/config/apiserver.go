@@ -26,13 +26,13 @@ import (
 	"github.com/golang/glog"
 	rpc "github.com/googleapis/googleapis/google/rpc"
 
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/config/descriptor"
-	pb "istio.io/mixer/pkg/config/proto"
-	"istio.io/mixer/pkg/config/store"
-	"istio.io/mixer/pkg/expr"
-	"istio.io/mixer/pkg/status"
-	"istio.io/mixer/pkg/template"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/config/descriptor"
+	pb "istio.io/core/mixer/pkg/config/proto"
+	"istio.io/core/mixer/pkg/config/store"
+	"istio.io/core/mixer/pkg/expr"
+	"istio.io/core/mixer/pkg/status"
+	"istio.io/core/mixer/pkg/template"
 )
 
 type validateFunc func(cfg map[string]string) (rt *Validated, desc descriptor.Finder, ce *adapter.ConfigErrors)

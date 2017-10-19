@@ -21,10 +21,10 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/template"
-	"istio.io/mixer/template/sample"
-	sample_report "istio.io/mixer/template/sample/report"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/template"
+	"istio.io/core/mixer/template/sample"
+	sample_report "istio.io/core/mixer/template/sample/report"
 )
 
 type TestBuilderInfoInventory struct {

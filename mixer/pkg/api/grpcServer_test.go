@@ -27,12 +27,12 @@ import (
 	"google.golang.org/grpc"
 
 	mixerpb "istio.io/api/mixer/v1"
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/adapterManager"
-	"istio.io/mixer/pkg/aspect"
-	"istio.io/mixer/pkg/attribute"
-	"istio.io/mixer/pkg/pool"
-	"istio.io/mixer/pkg/status"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/adapterManager"
+	"istio.io/core/mixer/pkg/aspect"
+	"istio.io/core/mixer/pkg/attribute"
+	"istio.io/core/mixer/pkg/pool"
+	"istio.io/core/mixer/pkg/status"
 )
 
 type preprocCallback func(ctx context.Context, requestBag attribute.Bag, responseBag *attribute.MutableBag) error

@@ -3,16 +3,18 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
+    importpath = "istio.io/core/pilot/test/mixer/cmd",
     visibility = ["//visibility:private"],
     deps = [
-        "//test/mixer:go_default_library",
-        "//test/mixer/istio_mixer_v1:go_default_library",
+        "@io_istio_pilot//test/mixer:go_default_library",
+        "@io_istio_pilot//test/mixer/istio_mixer_v1:go_default_library",
         "@org_golang_google_grpc//:go_default_library",
     ],
 )
 
 go_binary(
     name = "cmd",
+    importpath = "istio.io/core/pilot/test/mixer/cmd",
     library = ":go_default_library",
     visibility = ["//visibility:public"],
 )

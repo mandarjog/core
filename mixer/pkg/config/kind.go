@@ -17,7 +17,7 @@ package config
 import (
 	"fmt"
 
-	"istio.io/mixer/pkg/pool"
+	"istio.io/core/mixer/pkg/pool"
 )
 
 // Kind of aspect

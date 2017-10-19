@@ -17,12 +17,12 @@ package main
 import (
 	"os"
 
-	adapter "istio.io/mixer/adapter"
-	"istio.io/mixer/cmd/server/cmd"
-	"istio.io/mixer/cmd/shared"
-	adptr "istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/template"
-	generatedTmplRepo "istio.io/mixer/template"
+	adapter "istio.io/core/mixer/adapter"
+	"istio.io/core/mixer/cmd/server/cmd"
+	"istio.io/core/mixer/cmd/shared"
+	adptr "istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/template"
+	generatedTmplRepo "istio.io/core/mixer/template"
 )
 
 func supportedTemplates() map[string]template.Info {

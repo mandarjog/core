@@ -7,10 +7,11 @@ go_library(
         "controller.go",
         "monitor.go",
     ],
+    importpath = "istio.io/core/pilot/adapter/config/memory",
     visibility = ["//visibility:public"],
     deps = [
-        "//model:go_default_library",
         "@com_github_golang_glog//:go_default_library",
+        "@io_istio_pilot//model:go_default_library",
     ],
 )
 
@@ -22,9 +23,10 @@ go_test(
         "controller_test.go",
         "monitor_test.go",
     ],
+    importpath = "istio.io/core/pilot/adapter/config/memory_test",
     deps = [
-        ":go_default_library",
-        "//model:go_default_library",
-        "//test/mock:go_default_library",
+        "@io_istio_pilot//adapter/config/memory:go_default_library",
+        "@io_istio_pilot//model:go_default_library",
+        "@io_istio_pilot//test/mock:go_default_library",
     ],
 )

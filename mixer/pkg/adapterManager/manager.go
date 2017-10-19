@@ -31,15 +31,15 @@ import (
 	"github.com/opentracing/opentracing-go/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/aspect"
-	"istio.io/mixer/pkg/attribute"
-	"istio.io/mixer/pkg/config"
-	"istio.io/mixer/pkg/config/descriptor"
-	cpb "istio.io/mixer/pkg/config/proto"
-	"istio.io/mixer/pkg/expr"
-	"istio.io/mixer/pkg/pool"
-	"istio.io/mixer/pkg/status"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/aspect"
+	"istio.io/core/mixer/pkg/attribute"
+	"istio.io/core/mixer/pkg/config"
+	"istio.io/core/mixer/pkg/config/descriptor"
+	cpb "istio.io/core/mixer/pkg/config/proto"
+	"istio.io/core/mixer/pkg/expr"
+	"istio.io/core/mixer/pkg/pool"
+	"istio.io/core/mixer/pkg/status"
 )
 
 const (

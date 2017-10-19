@@ -20,11 +20,11 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/spf13/cobra"
 
-	"istio.io/mixer/cmd/shared"
-	pkgadapter "istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/adapterManager"
-	"istio.io/mixer/pkg/aspect"
-	"istio.io/mixer/pkg/config"
+	"istio.io/core/mixer/cmd/shared"
+	pkgadapter "istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/adapterManager"
+	"istio.io/core/mixer/pkg/aspect"
+	"istio.io/core/mixer/pkg/config"
 )
 
 func adapterCmd(legacyAdapters []pkgadapter.RegisterFn, printf shared.FormatFn) *cobra.Command {

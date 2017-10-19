@@ -24,13 +24,13 @@ import (
 
 	"github.com/golang/glog"
 
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/attribute"
-	"istio.io/mixer/pkg/config/descriptor"
-	pb "istio.io/mixer/pkg/config/proto"
-	"istio.io/mixer/pkg/config/store"
-	"istio.io/mixer/pkg/expr"
-	"istio.io/mixer/pkg/template"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/attribute"
+	"istio.io/core/mixer/pkg/config/descriptor"
+	pb "istio.io/core/mixer/pkg/config/proto"
+	"istio.io/core/mixer/pkg/config/store"
+	"istio.io/core/mixer/pkg/expr"
+	"istio.io/core/mixer/pkg/template"
 )
 
 // Resolver resolves configuration to a list of combined configs.

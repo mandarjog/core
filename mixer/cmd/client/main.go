@@ -17,8 +17,8 @@ package main
 import (
 	"os"
 
-	"istio.io/mixer/cmd/client/cmd"
-	"istio.io/mixer/cmd/shared"
+	"istio.io/core/mixer/cmd/client/cmd"
+	"istio.io/core/mixer/cmd/shared"
 )
 
 func main() {

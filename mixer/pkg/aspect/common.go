@@ -20,10 +20,10 @@ import (
 	multierror "github.com/hashicorp/go-multierror"
 
 	dpb "istio.io/api/mixer/v1/config/descriptor"
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/attribute"
-	cfg "istio.io/mixer/pkg/config"
-	"istio.io/mixer/pkg/expr"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/attribute"
+	cfg "istio.io/core/mixer/pkg/config"
+	"istio.io/core/mixer/pkg/expr"
 )
 
 // FromHandler creates a CreateAspectFunc from the provided handler instance.

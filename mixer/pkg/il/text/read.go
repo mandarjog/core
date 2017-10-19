@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"istio.io/mixer/pkg/il"
+	"istio.io/core/mixer/pkg/il"
 )
 
 // ReadText parses the given il assembly text and converts it into a Program.

@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/mixer/adapter"
-	adptr "istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/template"
-	generatedTemplate "istio.io/mixer/template"
+	"istio.io/core/mixer/adapter"
+	adptr "istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/template"
+	generatedTemplate "istio.io/core/mixer/template"
 )
 
 var empty = ``

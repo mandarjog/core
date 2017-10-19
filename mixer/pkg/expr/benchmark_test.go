@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/mixer/pkg/attribute"
+	"istio.io/core/mixer/pkg/attribute"
 )
 
 // run micro benchmark using expression evaluator.

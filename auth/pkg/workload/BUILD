@@ -7,8 +7,9 @@ go_library(
         "secretfileserver.go",
         "secretserver.go",
     ],
+    importpath = "istio.io/core/auth/pkg/workload",
     visibility = ["//visibility:public"],
     deps = [
-        "//pkg/util:go_default_library",
+        "@io_istio_auth//pkg/util:go_default_library",
     ],
 )

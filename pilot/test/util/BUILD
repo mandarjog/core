@@ -7,6 +7,7 @@ go_library(
         "kubernetes.go",
         "shell.go",
     ],
+    importpath = "istio.io/core/pilot/test/util",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_golang_glog//:go_default_library",

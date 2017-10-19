@@ -19,7 +19,7 @@ import (
 	"math"
 
 	dpb "istio.io/api/mixer/v1/config/descriptor"
-	"istio.io/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/adapter"
 )
 
 // ValidateLogEntry validates a log entry descriptor.

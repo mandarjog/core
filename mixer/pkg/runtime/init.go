@@ -20,12 +20,12 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/golang/glog"
 
-	"istio.io/mixer/pkg/adapter"
-	cpb "istio.io/mixer/pkg/config/proto"
-	"istio.io/mixer/pkg/config/store"
-	"istio.io/mixer/pkg/expr"
-	"istio.io/mixer/pkg/pool"
-	"istio.io/mixer/pkg/template"
+	"istio.io/core/mixer/pkg/adapter"
+	cpb "istio.io/core/mixer/pkg/config/proto"
+	"istio.io/core/mixer/pkg/config/store"
+	"istio.io/core/mixer/pkg/expr"
+	"istio.io/core/mixer/pkg/pool"
+	"istio.io/core/mixer/pkg/template"
 )
 
 // This file contains code to create new objects that are

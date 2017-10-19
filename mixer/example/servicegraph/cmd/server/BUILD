@@ -7,9 +7,9 @@ go_library(
     srcs = ["main.go"],
     visibility = ["//visibility:private"],
     deps = [
-        "//example/servicegraph:go_default_library",
-        "//example/servicegraph/dot:go_default_library",
-        "//example/servicegraph/promgen:go_default_library",
+        "//mixer/example/servicegraph:go_default_library",
+        "//mixer/example/servicegraph/dot:go_default_library",
+        "//mixer/example/servicegraph/promgen:go_default_library",
     ],
 )
 

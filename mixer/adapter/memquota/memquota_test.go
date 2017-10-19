@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/mixer/adapter/memquota/config"
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/adapter/test"
-	"istio.io/mixer/template/quota"
+	"istio.io/core/mixer/adapter/memquota/config"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/adapter/test"
+	"istio.io/core/mixer/template/quota"
 )
 
 func TestBasic(t *testing.T) {

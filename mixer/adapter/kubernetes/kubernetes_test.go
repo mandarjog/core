@@ -25,9 +25,9 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/mixer/adapter/kubernetes/config"
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/adapter/test"
+	"istio.io/core/mixer/adapter/kubernetes/config"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/adapter/test"
 )
 
 type fakeCache struct {

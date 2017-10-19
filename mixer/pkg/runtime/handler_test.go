@@ -26,9 +26,9 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/golang/protobuf/ptypes/wrappers"
 
-	"istio.io/mixer/pkg/adapter"
-	pb "istio.io/mixer/pkg/config/proto"
-	tmpl "istio.io/mixer/pkg/template"
+	"istio.io/core/mixer/pkg/adapter"
+	pb "istio.io/core/mixer/pkg/config/proto"
+	tmpl "istio.io/core/mixer/pkg/template"
 )
 
 type fakeTmplRepo struct {

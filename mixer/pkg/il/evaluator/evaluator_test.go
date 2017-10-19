@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	pbv "istio.io/api/mixer/v1/config/descriptor"
-	"istio.io/mixer/pkg/attribute"
-	"istio.io/mixer/pkg/config/descriptor"
-	pb "istio.io/mixer/pkg/config/proto"
-	iltesting "istio.io/mixer/pkg/il/testing"
+	"istio.io/core/mixer/pkg/attribute"
+	"istio.io/core/mixer/pkg/config/descriptor"
+	pb "istio.io/core/mixer/pkg/config/proto"
+	iltesting "istio.io/core/mixer/pkg/il/testing"
 )
 
 func TestEval(t *testing.T) {

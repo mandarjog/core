@@ -25,10 +25,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 
-	"istio.io/mixer/adapter/prometheus/config"
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/adapter/test"
-	"istio.io/mixer/template/metric"
+	"istio.io/core/mixer/adapter/prometheus/config"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/adapter/test"
+	"istio.io/core/mixer/template/metric"
 )
 
 type testServer struct {

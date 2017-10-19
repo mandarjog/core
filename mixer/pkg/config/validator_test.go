@@ -28,13 +28,13 @@ import (
 	"github.com/gogo/protobuf/types"
 
 	dpb "istio.io/api/mixer/v1/config/descriptor"
-	"istio.io/mixer/pkg/adapter"
-	listcheckerpb "istio.io/mixer/pkg/aspect/config"
-	"istio.io/mixer/pkg/attribute"
-	"istio.io/mixer/pkg/config/descriptor"
-	pb "istio.io/mixer/pkg/config/proto"
-	"istio.io/mixer/pkg/expr"
-	tmpl "istio.io/mixer/pkg/template"
+	"istio.io/core/mixer/pkg/adapter"
+	listcheckerpb "istio.io/core/mixer/pkg/aspect/config"
+	"istio.io/core/mixer/pkg/attribute"
+	"istio.io/core/mixer/pkg/config/descriptor"
+	pb "istio.io/core/mixer/pkg/config/proto"
+	"istio.io/core/mixer/pkg/expr"
+	tmpl "istio.io/core/mixer/pkg/template"
 )
 
 type fakeVFinder struct {

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"text/template"
 
-	"istio.io/mixer/example/servicegraph"
+	"istio.io/core/mixer/example/servicegraph"
 )
 
 var htmlTmpl = `<!DOCTYPE html>

@@ -21,10 +21,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/mixer/cmd/shared"
-	"istio.io/mixer/pkg/adapter"
-	mixerRuntime "istio.io/mixer/pkg/runtime"
-	"istio.io/mixer/pkg/template"
+	"istio.io/core/mixer/cmd/shared"
+	"istio.io/core/mixer/pkg/adapter"
+	mixerRuntime "istio.io/core/mixer/pkg/runtime"
+	"istio.io/core/mixer/pkg/template"
 )
 
 // Group is the K8s API group.
