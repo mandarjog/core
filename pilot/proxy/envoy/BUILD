@@ -15,7 +15,6 @@ go_library(
         "route.go",
         "watcher.go",
     ],
-    importpath = "istio.io/core/pilot/proxy/envoy",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_emicklei_go_restful//:go_default_library",
@@ -24,9 +23,9 @@ go_library(
         "@com_github_golang_protobuf//ptypes/duration:go_default_library",
         "@com_github_hashicorp_go_multierror//:go_default_library",
         "@com_github_howeyc_fsnotify//:go_default_library",
-        "@io_istio_api//proxy/v1/config:go_default_library",
-        "@io_istio_pilot//model:go_default_library",
-        "@io_istio_pilot//proxy:go_default_library",
+        "@io_istio_api//:proxy/v1/config",
+        "@io_istio_core//pilot/model:go_default_library",
+        "@io_istio_core//pilot/proxy:go_default_library",
     ],
 )
 
@@ -44,19 +43,18 @@ go_test(
     data = glob(["testdata/*.golden"]) + [
         ":envoy_binary",
     ],
-    importpath = "istio.io/core/pilot/proxy/envoy",
     library = ":go_default_library",
     deps = [
         "@com_github_davecgh_go_spew//spew:go_default_library",
         "@com_github_emicklei_go_restful//:go_default_library",
         "@com_github_golang_protobuf//ptypes:go_default_library",
         "@com_github_howeyc_fsnotify//:go_default_library",
-        "@io_istio_api//proxy/v1/config:go_default_library",
-        "@io_istio_pilot//adapter/config/memory:go_default_library",
-        "@io_istio_pilot//model:go_default_library",
-        "@io_istio_pilot//proxy:go_default_library",
-        "@io_istio_pilot//test/mock:go_default_library",
-        "@io_istio_pilot//test/util:go_default_library",
+        "@io_istio_api//:proxy/v1/config",
+        "@io_istio_core//pilot/adapter/config/memory:go_default_library",
+        "@io_istio_core//pilot/model:go_default_library",
+        "@io_istio_core//pilot/proxy:go_default_library",
+        "@io_istio_core//pilot/test/mock:go_default_library",
+        "@io_istio_core//pilot/test/util:go_default_library",
     ],
 )
 

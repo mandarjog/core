@@ -27,8 +27,8 @@ import (
 	"k8s.io/ingress/core/pkg/ingress/annotations/class"
 
 	proxyconfig "istio.io/api/proxy/v1/config"
-	"istio.io/pilot/platform/kube"
-	"istio.io/pilot/proxy"
+	"istio.io/core/pilot/platform/kube"
+	"istio.io/core/pilot/proxy"
 )
 
 func makeAnnotatedIngress(annotation string) *extensions.Ingress {

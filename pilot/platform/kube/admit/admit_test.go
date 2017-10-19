@@ -37,12 +37,12 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"istio.io/pilot/adapter/config/crd"
-	"istio.io/pilot/model"
-	"istio.io/pilot/model/test"
-	"istio.io/pilot/platform/kube"
-	"istio.io/pilot/platform/kube/admit/testcerts"
-	"istio.io/pilot/test/mock"
+	"istio.io/core/pilot/adapter/config/crd"
+	"istio.io/core/pilot/model"
+	"istio.io/core/pilot/model/test"
+	"istio.io/core/pilot/platform/kube"
+	"istio.io/core/pilot/platform/kube/admit/testcerts"
+	"istio.io/core/pilot/test/mock"
 )
 
 const (

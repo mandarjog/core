@@ -19,7 +19,7 @@ import (
 	"sort"
 	"testing"
 
-	"istio.io/pilot/model"
+	"istio.io/core/pilot/model"
 )
 
 type mockClient []*application

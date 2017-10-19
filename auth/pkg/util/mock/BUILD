@@ -5,6 +5,5 @@ go_library(
     srcs = [
         "fakefileutil.go",
     ],
-    importpath = "istio.io/core/auth/pkg/util/mock",
     visibility = ["//visibility:public"],
 )

@@ -9,11 +9,10 @@ go_library(
         "serviceaccounts.go",
         "servicediscovery.go",
     ],
-    importpath = "istio.io/core/pilot/platform/eureka",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_golang_glog//:go_default_library",
-        "@io_istio_pilot//model:go_default_library",
+        "@io_istio_core//pilot/model:go_default_library",
     ],
 )
 
@@ -27,10 +26,9 @@ go_test(
         "servicediscovery_test.go",
     ],
     data = glob(["testdata/*"]),
-    importpath = "istio.io/core/pilot/platform/eureka",
     library = ":go_default_library",
     deps = [
-        "@io_istio_pilot//model:go_default_library",
-        "@io_istio_pilot//test/util:go_default_library",
+        "@io_istio_core//pilot/model:go_default_library",
+        "@io_istio_core//pilot/test/util:go_default_library",
     ],
 )

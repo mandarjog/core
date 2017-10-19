@@ -27,8 +27,8 @@ import (
 	restful "github.com/emicklei/go-restful"
 	v1 "k8s.io/api/core/v1"
 
-	"istio.io/pilot/proxy"
-	"istio.io/pilot/test/util"
+	"istio.io/core/pilot/proxy"
+	"istio.io/core/pilot/test/util"
 )
 
 var (

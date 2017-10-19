@@ -17,8 +17,8 @@ package memory_test
 import (
 	"testing"
 
-	"istio.io/pilot/adapter/config/memory"
-	"istio.io/pilot/test/mock"
+	"istio.io/core/pilot/adapter/config/memory"
+	"istio.io/core/pilot/test/mock"
 )
 
 const (

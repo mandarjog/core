@@ -11,7 +11,6 @@ go_library(
         "onprem.go",
         "util.go",
     ],
-    importpath = "istio.io/core/auth/cmd/node_agent/na",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_aws_aws_sdk_go//aws/ec2metadata:go_default_library",
@@ -41,11 +40,10 @@ go_test(
         "util_test.go",
     ],
     data = glob(["testdata/*"]),
-    importpath = "istio.io/core/auth/cmd/node_agent/na",
     library = ":go_default_library",
     deps = [
         "@com_github_golang_glog//:go_default_library",
-        "@com_github_googleapis_googleapis//google/rpc:go_default_library",
+        "@com_github_googleapis_googleapis//:google/rpc",
         "@io_istio_auth//pkg/util/mock:go_default_library",
         "@io_istio_auth//pkg/workload:go_default_library",
         "@io_istio_auth//proto:go_default_library",

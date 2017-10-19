@@ -6,7 +6,6 @@ go_library(
         "crypto.go",
         "san.go",
     ],
-    importpath = "istio.io/core/auth/pkg/pki",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_golang_glog//:go_default_library",
@@ -19,6 +18,5 @@ go_test(
         "crypto_test.go",
         "san_test.go",
     ],
-    importpath = "istio.io/core/auth/pkg/pki",
     library = ":go_default_library",
 )

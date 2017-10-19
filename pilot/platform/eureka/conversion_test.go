@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/pilot/model"
-	"istio.io/pilot/test/util"
+	"istio.io/core/pilot/model"
+	"istio.io/core/pilot/test/util"
 )
 
 func TestConvertService(t *testing.T) {

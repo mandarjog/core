@@ -5,6 +5,5 @@ go_library(
     srcs = [
         "fileutil.go",
     ],
-    importpath = "istio.io/core/auth/pkg/util",
     visibility = ["//visibility:public"],
 )

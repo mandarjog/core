@@ -17,10 +17,10 @@ package aggregate_test
 import (
 	"testing"
 
-	"istio.io/pilot/adapter/config/aggregate"
-	"istio.io/pilot/adapter/config/memory"
-	"istio.io/pilot/model"
-	"istio.io/pilot/test/mock"
+	"istio.io/core/pilot/adapter/config/aggregate"
+	"istio.io/core/pilot/adapter/config/memory"
+	"istio.io/core/pilot/model"
+	"istio.io/core/pilot/test/mock"
 )
 
 const (

@@ -6,7 +6,6 @@ go_library(
         "main.go",
         "markdown.go",
     ],
-    importpath = "istio.io/core/auth/cmd/istio_ca",
     visibility = ["//visibility:private"],
     deps = [
         "@com_github_golang_glog//:go_default_library",
@@ -26,7 +25,6 @@ go_library(
 
 go_binary(
     name = "istio_ca",
-    importpath = "istio.io/core/auth/cmd/istio_ca",
     library = ":go_default_library",
     linkstamp = "istio.io/auth/cmd/istio_ca/version",
     visibility = ["//visibility:public"],

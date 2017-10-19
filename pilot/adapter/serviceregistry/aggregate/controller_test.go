@@ -17,9 +17,9 @@ package aggregate
 import (
 	"testing"
 
-	"istio.io/pilot/model"
-	"istio.io/pilot/platform"
-	"istio.io/pilot/test/mock"
+	"istio.io/core/pilot/model"
+	"istio.io/core/pilot/platform"
+	"istio.io/core/pilot/test/mock"
 )
 
 // MockController specifies a mock Controller for testing

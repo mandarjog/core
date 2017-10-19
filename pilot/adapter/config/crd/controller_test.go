@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/pilot/platform/kube"
-	"istio.io/pilot/test/mock"
+	"istio.io/core/pilot/platform/kube"
+	"istio.io/core/pilot/test/mock"
 )
 
 const (

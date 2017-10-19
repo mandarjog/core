@@ -22,9 +22,9 @@ import (
 	"github.com/davecgh/go-spew/spew"
 
 	proxyconfig "istio.io/api/proxy/v1/config"
-	"istio.io/pilot/adapter/config/memory"
-	"istio.io/pilot/model"
-	"istio.io/pilot/test/mock"
+	"istio.io/core/pilot/adapter/config/memory"
+	"istio.io/core/pilot/model"
+	"istio.io/core/pilot/test/mock"
 )
 
 func TestConfigDescriptor(t *testing.T) {

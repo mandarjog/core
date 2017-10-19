@@ -6,7 +6,6 @@ go_library(
         "ca.go",
         "generate_cert.go",
     ],
-    importpath = "istio.io/core/auth/pkg/pki/ca",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_golang_glog//:go_default_library",
@@ -23,7 +22,6 @@ go_test(
         "ca_test.go",
         "generate_cert_test.go",
     ],
-    importpath = "istio.io/core/auth/pkg/pki/ca",
     library = ":go_default_library",
     deps = [
         "@io_istio_auth//pkg/pki:go_default_library",

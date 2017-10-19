@@ -26,18 +26,18 @@ import (
 
 	"istio.io/api/mixer/v1/config/descriptor"
 	adptTmpl "istio.io/api/mixer/v1/template"
-	"istio.io/mixer/pkg/adapter"
-	"istio.io/mixer/pkg/attribute"
-	"istio.io/mixer/pkg/expr"
-	"istio.io/mixer/pkg/template"
+	"istio.io/core/mixer/pkg/adapter"
+	"istio.io/core/mixer/pkg/attribute"
+	"istio.io/core/mixer/pkg/expr"
+	"istio.io/core/mixer/pkg/template"
 
-	"istio.io/mixer/template/list"
+	"istio.io/core/mixer/template/list"
 
-	"istio.io/mixer/template/quota"
+	"istio.io/core/mixer/template/quota"
 
-	"istio.io/mixer/template/log"
+	"istio.io/core/mixer/template/log"
 
-	"istio.io/mixer/template/metric"
+	"istio.io/core/mixer/template/metric"
 
 	"time"
 )

@@ -46,18 +46,6 @@ go_repository(
 )
 
 go_repository(
-    name = "com_github_spf13_cobra",
-    commit = "35136c09d8da66b901337c6e86fd8e88a1a255bd",  # Jan 30, 2017 (no releases)
-    importpath = "github.com/spf13/cobra",
-)
-
-go_repository(
-    name = "com_github_spf13_pflag",
-    commit = "9ff6c6923cfffbcd502984b8e0c80539a94968b7",  # Jan 30, 2017 (no releases)
-    importpath = "github.com/spf13/pflag",
-)
-
-go_repository(
     name = "com_github_cpuguy83_go_md2man",
     commit = "648eed146d3f3beacb64063cd0daae908015eebd",  # Mar 19, 2017 (no releases)
     importpath = "github.com/cpuguy83/go-md2man",
@@ -1036,39 +1024,6 @@ http_file(
     name = "envoy_binary",
     url = "https://storage.googleapis.com/istio-build/proxy/envoy-debug-" + ISTIO_PROXY_BUCKET + ".tar.gz",
 )
-
-
-# This SHA is obtained from istio/api
-#ISTIO_API = "93848bb1c495ff6ebc1a938e2e0a403d52d345c1"
-#
-#new_git_repository(
-#    name = "io_istio_api",
-#    build_file_content = """
-#load("@io_bazel_rules_go//go:def.bzl", "go_prefix")
-#load("@io_bazel_rules_go//proto:go_proto_library.bzl", "go_proto_library")
-#package(default_visibility = ["//visibility:public"])
-#go_prefix("istio.io/api/proxy/v1/config")
-#go_proto_library(
-#    name = "go_default_library",
-#    srcs = glob(["proxy/v1/config/*.proto"]),
-#    deps = [
-#        "@com_github_golang_protobuf//ptypes/any:go_default_library",
-#        "@com_github_golang_protobuf//ptypes/duration:go_default_library",
-#        "@com_github_golang_protobuf//ptypes/wrappers:go_default_library",
-#    ],
-#)
-#filegroup(
-#    name = "mixer",
-#    srcs = glob(["mixer/v1/*.proto"]),
-#)
-#filegroup(
-#    name = "wordlist",
-#    srcs = ["mixer/v1/global_dictionary.yaml"],
-#)
-#    """,
-#    commit = ISTIO_API,
-#    remote = "https://github.com/istio/api.git",
-#)
 
 ##
 ## Mock codegen rules

@@ -7,12 +7,11 @@ go_library(
         "conversion.go",
         "monitor.go",
     ],
-    importpath = "istio.io/core/pilot/platform/consul",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_golang_glog//:go_default_library",
         "@com_github_hashicorp_consul//api:go_default_library",
-        "@io_istio_pilot//model:go_default_library",
+        "@io_istio_core//pilot/model:go_default_library",
     ],
 )
 
@@ -24,10 +23,9 @@ go_test(
         "conversion_test.go",
         "monitor_test.go",
     ],
-    importpath = "istio.io/core/pilot/platform/consul",
     library = ":go_default_library",
     deps = [
         "@com_github_hashicorp_consul//api:go_default_library",
-        "@io_istio_pilot//model:go_default_library",
+        "@io_istio_core//pilot/model:go_default_library",
     ],
 )

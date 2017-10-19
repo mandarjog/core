@@ -7,7 +7,6 @@ go_library(
         "authorizer.go",
         "server.go",
     ],
-    importpath = "istio.io/core/auth/pkg/server/grpc",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_coreos_go_oidc//:go_default_library",
@@ -31,7 +30,6 @@ go_test(
         "authorizer_test.go",
         "server_test.go",
     ],
-    importpath = "istio.io/core/auth/pkg/server/grpc",
     library = ":go_default_library",
     deps = [
         "@io_istio_auth//pkg/pki:go_default_library",
