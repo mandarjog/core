@@ -26,16 +26,6 @@ set -u
 # Print commands
 set -x
 
-if [ "${CI:-}" == 'bootstrap' ]; then
-    # Use the provided pull head sha, from prow.
-    GIT_SHA="${PULL_PULL_SHA}"
-
-    # We might want to set GOPATH
-else
-    # Use the current commit.
-    GIT_SHA="$(git rev-parse --verify HEAD)"
-fi
-
 echo '=== Place Holder ==='
 ls -all
 env
